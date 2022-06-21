@@ -12,10 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1fb32099-9230-47af-9abb-89ef533e4a09" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/websocket-client.js" beforeDir="false" afterPath="$PROJECT_DIR$/websocket-client.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/websocket-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/websocket-server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/websocket.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +36,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="dart.analysis.tool.window.visible" value="false" />
@@ -56,7 +55,7 @@
       <option name="presentableId" value="Default" />
       <updated>1655808712277</updated>
       <workItem from="1655808713356" duration="13075000" />
-      <workItem from="1655822046854" duration="952000" />
+      <workItem from="1655822046854" duration="7364000" />
     </task>
     <servers />
   </component>
@@ -75,6 +74,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="1018" y="200" width="816" height="730" key="#Intentions" timestamp="1655824330068">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1018" y="200" width="816" height="730" key="#Intentions/0.0.1920.1050@0.0.1920.1050" timestamp="1655824330068" />
     <state x="1173" y="231" width="672" height="678" key="search.everywhere.popup" timestamp="1655821432390">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
