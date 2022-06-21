@@ -2,6 +2,7 @@ const fs = require('fs')
 const { io } = require("socket.io-client");
 const ss = require('socket.io-stream');
 const socket = io.connect("ws://localhost:5000/get-file");
+//файл который нужно передать серверу
 const filename = './file/basegame_4_gamedata.archive'
 socket.on("connect_error", (err) => {
     console.log('error', err)

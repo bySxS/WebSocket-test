@@ -4,8 +4,8 @@
   "description": "",
   "main": "websocket-server.js",
   "scripts": {
-    "server": "node websocket-server.js",
-    "client": "node websocket-client.js"
+    "ioserver": "node websocket-server.js",
+    "ioclient": "node websocket-client.js"
   },
   "author": "sxs",
   "license": "ISC",
