@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test websocket</title>
+</head>
+<body>
+<button id="btn">send file</button>
+
+
+
+<script>
+    const btn = document.getElementById('btn')
+    const socket = new WebSocket('ws://localhost:5000/data')
+
+    socket.onopen = () => {
+        console.log('Подключение установлено')
+    }
+
+    socket.onmessage = (event) => {
+        console.log('С сервера пришло сообщение ')
+    }
+
+    socket.on('data', (t) => {
+        t.equal(o.toString(), 'hello', 'success!')
+        stream.destroy()
+        t.end()
+    })
+
+    btn.onclick = () => {
+        socket.send('привет сервер')
+    }
+</script>
+
+</body>
+</html>
